@@ -24,3 +24,15 @@ To get this project up and running on your local machine, follow the steps below
    ```bash
    git clone https://github.com/BhaveshThapar/web-scraping-aggregator.git
    cd web-scraping-aggregator
+
+2. Add requirements of project such as BeautifulSoup, Requests, python-dotenv
+   ```bash
+   pip install -r requirements.txt
+
+3. Add in a .env file your Yelp API Key
+   ```bash
+   YELP_API_KEY=YOUR_KEY
+
+4. Run the code and view the output in output.txt
+   ```bash
+   python main.py
